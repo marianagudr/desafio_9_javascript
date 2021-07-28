@@ -18,7 +18,7 @@ let precio = 0;
 let boton1 = document.getElementById("efectoEnviar");
 let boton2 = document.getElementById("efecto1");
 let tipoIlustracion = document.getElementById("tipoIlustracion");
-let tamano1 = document.getElementById("tamano1")
+let tamano1 = document.getElementById("tamano");
 
 
 // Funciones
@@ -98,6 +98,8 @@ function mostrarPedido(e) {
 
         let impresion = document.getElementById("prueba");
         impresion.appendChild(div1);
+
+        refTamano.style.display = "none"
     })
 }
 
@@ -106,6 +108,7 @@ function desplegarTexto(e) {
     efecto.style.display = "block"   
     refTipo.style.display = "none"
     refTamano.style.display = "none" 
+    efecto2.style.display = "none"
 }
 
 function mostrarRefTipo() {
@@ -120,9 +123,6 @@ function mostrarRefTamano() {
     refTamano.style.display = "block"
 }
 
-function ocultarRefTamano() {
-    refTamano.style.display = "none"
-}
 
 // Eventos
 
@@ -133,8 +133,5 @@ tipoIlustracion.addEventListener("focus", mostrarRefTipo);
 tipoIlustracion.addEventListener("blur", ocultarRefTipo);
 
 tamano1.addEventListener("focus", mostrarRefTamano);
-tamano1.addEventListener("blur", ocultarRefTamano);
-
-
 
 
