@@ -1,0 +1,46 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Monserrat', sans-serif; 
+}
+
+h1 {
+    color: #1f6e72;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 20px 10px; 
+}
+
+.subtitulos-tu-mapa {
+    color: #001836;
+    font-size: 1.5rem;
+    font-family: 'Berkshire Swash', cursive; 
+}
+
+.parrafos-3 {
+    color: #001836;
+    font-size: 1rem; 
+    padding: 10px;
+}
+
+.boton-enviar {
+    background-color: #1f6e72;
+    color: #f5f6fa;
+    margin: 20px; 
+}
+
+.enviar {
+    display: flex;
+    justify-content: center; 
+}
+
+#efecto {
+    display: none;
+}
+
+.referencia {
+    color: #ce0a45;
+    font-size: 0.8rem;
+}
