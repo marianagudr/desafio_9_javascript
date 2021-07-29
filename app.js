@@ -35,7 +35,7 @@ function mostrarPedido(e) {
 
     switch (tipo) {
         case "Artesanal":
-            if (tamano == "A4" || tamano == "a4") {
+            if ((tamano == "A4") || (tamano == "a4")) {
                 precio = 6000;
             }
             else {
@@ -46,7 +46,7 @@ function mostrarPedido(e) {
             break;
         
         case "Digital":
-            if ((tamano == "A4" || tamano == "a4") || tamano == "20x30") {
+            if ((tamano == "A4") || (tamano == "a4") || (tamano == "20x30")) {
                 precio = 4000;
             }
             else if (tamano == "30x40") {
